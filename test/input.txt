@@ -41,6 +41,17 @@
   add Esther Potato p/555555 e/esther@notreal.potato
   list
 
+  # testing adding names not in alphabetical order for sort command
+  add Adam Neely p/2323 e/basslessons@youtube.com
+  list
+
+##########################################################
+# test sort command
+##########################################################
+
+  # should display every person in alphabetical order
+  sort
+
 ##########################################################
 # test find persons command
 ##########################################################
